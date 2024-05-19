@@ -1,0 +1,318 @@
+.editorPanel {
+
+    background-color: rgb(var(--background-rgb));
+
+    margin: 0;
+
+    padding: 0;
+
+    display: flex;
+
+    flex-direction: row;
+
+    align-items: start;
+
+    justify-content: center;
+
+    --items-panel-width: 500px;
+
+    --items-panel-height: 1000px;
+}
+
+.itemsPanel {
+
+    background-color: rgb(var(--background-rgb));
+
+    margin: 0;
+
+    padding: 0;
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: start;
+
+    justify-content: center;
+
+}
+
+.items {
+
+    background-color: rgb(var(--background-rgb));
+
+    margin: 0;
+
+    padding: 0;
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    justify-content: center;
+
+    width: calc(var(--items-panel-width));
+
+    height: calc(var(--items-panel-height));
+
+    overflow-y: scroll;
+
+    border: 2px solid rgb(var(--foreground-rgb));
+}
+
+.item {
+    border: black;
+
+    border-width: 10px;
+
+    margin: 0;
+
+    padding: 0;
+
+    display: flex;
+
+    flex-direction: row;
+
+    align-items: center;
+
+    justify-content: center;
+
+    width: calc(var(--items-panel-width));
+
+    height: 50px;
+}
+
+.mapControl {
+
+    background-color: rgb(var(--background-rgb));
+
+    margin: 0;
+
+    padding: 0;
+
+    display: flex;
+
+    flex-direction: row;
+
+    align-items: center;
+
+    justify-content: center;
+
+    width: calc(var(--items-panel-width));
+}
+
+.workspacePanel {
+
+    margin: 0;
+
+    padding: 0;
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    justify-content: center;
+}
+
+.workspace {
+
+    background-color: rgb(40, 40, 40);
+
+    margin: 0;
+
+    padding: 0;
+
+    width: 1000px;
+    
+    height: 1000px;
+
+    border: 2px solid rgb(var(--foreground-rgb));
+}
+
+.library {
+
+    background-color: rgb(var(--background-rgb));
+
+    margin: 0;
+
+    padding: 0;
+
+    display: flex;
+
+    flex-direction: row;
+
+    align-items: center;
+
+    justify-content: normal;
+
+    flex-wrap: wrap;
+
+    overflow-y: scroll;
+
+    width: calc(var(--items-panel-height));
+
+    border: 2px solid rgb(var(--foreground-rgb));
+}
+
+.libraryItem {
+
+    background-color: rgb(var(--background-rgb));
+
+    border: 2px solid rgb(var(--emphasis-rgb));
+
+    border-radius: 10px;
+
+    padding: 10px;
+
+    cursor: pointer;
+}
+
+.libraryItem:hover {
+    background: rgb(var(--emphasis-rgb));
+
+    border: 2px solid black;
+}
+
+.libraryItem:active {
+    background: rgb(222, 127, 175);
+
+    border: 2px solid black;
+}
+
+.title {
+
+    margin: 0;
+
+    padding: 0;
+
+    font-family: Arial, sans-serif;
+
+    width: calc(var(--items-panel-width));
+
+    text-align: center;
+}
+
+.button {
+    margin: 0;
+
+    padding: 0;
+
+    font-size: large;
+
+    background: rgb(var(--background-rgb));
+
+    color: rgb(var(--emphasis-rgb));
+
+    width: 70px;
+
+    height: 30px;
+
+    border: 2px solid rgb(var(--emphasis-rgb));
+
+    border-radius: 5px;
+
+    cursor: pointer;
+}
+
+.button:hover {
+    background: rgb(var(--emphasis-rgb));
+
+    color: black;
+
+    border: 2px solid black;
+}
+
+.button:active {
+    background: rgb(222, 127, 175);
+
+    color: black;
+
+    border: 2px solid black;
+}
+
+.itemId {
+    margin: 0;
+
+    padding: 0;
+
+    width: 50px;
+
+    display: inline-flex;
+
+    align-items: center;
+
+    justify-content: center;
+}
+
+.itemTitle {
+    margin: 0;
+
+    padding: 0;
+
+    width: 280px;
+
+    display: inline-flex;
+
+    align-items: center;
+
+    justify-content: center;
+}
+
+.itemButton {
+    margin: 0;
+
+    padding: 0;
+
+    width: 20px;
+
+    display: inline-flex;
+
+    align-items: center;
+
+    justify-content: center;
+}
+
+.deleteButton {
+
+    background-color: rgb(var(--background-rgb));
+
+    color: rgb(var(--emphasis-rgb));
+
+    border: 2px solid rgb(var(--emphasis-rgb));
+
+    border-radius: 5px;
+
+    padding: 0px;
+
+    cursor: pointer;
+
+    display: inline-flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    width: 20px;
+
+    height: 20px;
+}
+
+.deleteButton:hover {
+    background: rgb(var(--emphasis-rgb));
+
+    color: black;
+
+    border: 2px solid black;
+}
+
+.deleteButton:active {
+    background: rgb(222, 127, 175);
+
+    color: black;
+
+    border: 2px solid black;
+}

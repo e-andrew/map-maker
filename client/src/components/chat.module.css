@@ -1,0 +1,101 @@
+ .chat {
+
+    max-width: 400px;
+
+    margin: 50px auto;
+
+    padding: 20px;
+
+    background-color: rgb(var(--background-rgb));
+
+    border-radius: 10px;
+}
+ 
+.nickname {
+
+    font-weight: bold;
+
+    color: rgb(var(--emphasis-rgb));
+}
+
+.messageForm {
+
+  display: flex;
+
+  flex-direction: row;
+
+  align-items: center;
+}
+ 
+.messageInput {
+
+    border: 1px solid #ccc;
+
+    border-radius: 5px;
+
+    padding: 10px;
+
+    margin-bottom: 10px;
+
+    width: 100%;
+
+    font-size: large;
+}
+ 
+.button {
+    margin: 0;
+
+    padding: 0;
+
+    background: rgb(var(--background-rgb));
+
+    color: rgb(var(--emphasis-rgb));
+
+    width: 70px;
+
+    height: 30px;
+
+    border: 2px solid rgb(var(--emphasis-rgb));
+
+    border-radius: 5px;
+
+    cursor: pointer;
+
+    font-size: large;
+}
+
+.button:hover {
+    background: rgb(var(--emphasis-rgb));
+
+    color: black;
+
+    border: 2px solid black;
+}
+
+.button:active {
+    background: rgb(222, 127, 175);
+
+    color: black;
+
+    border: 2px solid black;
+}
+
+ 
+.history {
+
+    margin-top: 20px;
+
+    border: 1px solid #ccc;
+
+    border-radius: 5px;
+
+    padding: 10px;
+
+    height: 200px;
+
+    overflow-y: scroll;
+}
+ 
+.message {
+    margin-bottom: 5px;
+}
